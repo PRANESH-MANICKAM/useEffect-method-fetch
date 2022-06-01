@@ -13,7 +13,6 @@ const Fetch = () => {
   useEffect(() => {
     fetchdata();
   }, []);
-  console.log("pranesh", source);
   return (
     <div>
       <div className="container">
